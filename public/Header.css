@@ -1,0 +1,155 @@
+body {
+    margin: 0px;
+}
+
+.brand-name {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 10px 0;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.link-wrapper {
+    text-decoration: none;
+    /* 텍스트 밑줄 제거 */
+    color: inherit;
+    /* 부모 요소의 텍스트 색상 상속 */
+}
+
+.brand-name-part1 {
+    color: rgb(255, 179, 39);
+    padding-right: 10px;
+}
+
+
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    height: 250px;
+    transition: background-color 0.3s ease;
+    border-bottom: 1px solid #d9d9d9;
+    z-index: 999;
+
+}
+
+.header.scrolled {
+    background-color: #2e2e2e;
+}
+
+.navigation {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    margin: 0 auto;
+    width: 1081px;
+}
+
+.outerwear,
+.top,
+.shoes {
+    font-size: 20px;
+    transition: font-size 0.2s ease;
+    /* transition 효과 추가 */
+}
+
+/* 호버 시 스타일 변경 */
+.outerwear:hover,
+.top:hover,
+.shoes:hover {
+    font-size: 40px;
+    transition-delay: 0.01s;
+    /* 변화 지연 시간 설정 */
+}
+
+
+.navigation li {
+    margin: 0px 160px;
+    align-items: center;
+    font-weight: bold;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.search-area {
+    align-items: center;
+    display: flex;
+    justify-content: end;
+    min-width: 1550px;
+    position: relative;
+}
+
+.search-area a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.search-area input {
+    width: 250px;
+}
+
+.night,
+.search-area input,
+.cart-logo {
+    margin-right: 20px;
+}
+
+
+
+.cart-logo {
+    font-size: 26px;
+    padding-top: 5px;
+}
+
+.search {
+    width: 120px;
+    height: 30px;
+    border: 2px solid #333;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+}
+
+
+.dropdown {
+    position: absolute;
+    top: calc(100% + -1px);
+    /* 입력 창의 아래에 위치하도록 조정합니다. */
+    right: 1;
+    z-index: 1000;
+    /* 다른 요소들보다 위에 나타나도록 설정합니다. */
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 2px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    font-size: 15px;
+}
+
+.dropdown ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown li {
+    padding: 4px 10px;
+}
+
+.dropdown li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+}

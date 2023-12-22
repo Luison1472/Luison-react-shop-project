@@ -1,0 +1,25 @@
+.appContainer {
+    transform: scale(1.333);
+    /* 1.333은 100%에 해당하는 비율(1/0.75)입니다 */
+    transform-origin: 0 0;
+    /* 확대의 기준점을 좌측 상단으로 설정합니다 */
+}
+
+.dark_btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    background-color: #ffaa5a;
+    color: rgb(52, 52, 52);
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.dark_btn:hover {
+    transform: translateY(-5px);
+    /* 호버 시 조금 위로 이동하는 애니메이션 효과 */
+}

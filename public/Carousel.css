@@ -1,0 +1,72 @@
+.carousel {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 300px;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.carousel-item img {
+    width: 1621px;
+}
+
+
+
+.product-introduce {
+    position: absolute;
+    top: 50%;
+    /* 부모 요소 중앙 정렬을 위한 설정 */
+    left: 140px;
+    /* 이미지 안쪽 왼쪽 여백 조정 */
+    transform: translateY(-50%);
+    /* 부모 요소 중앙 정렬을 위한 설정 */
+    padding: 10px;
+    /* 내부 여백 설정 (예시) */
+}
+
+.slide-comment {
+    margin: 0px;
+}
+
+.carousel-controls1,
+.carousel-controls2 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ffffff;
+}
+
+.carousel-controls1 {
+    font-size: 50px;
+    left: 2%;
+}
+
+.carousel-controls2 {
+    left: 470%;
+    font-size: 50px;
+}
+
+
+
+
+
+
+
+
+.best {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.slide-comment {
+    font-size: 25px;
+    padding: 5px 0px 5px 0px;
+}
+
+.zerobase {
+    font-size: 20px;
+}

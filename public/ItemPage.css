@@ -1,0 +1,290 @@
+body {
+    margin: 0;
+}
+
+.link-wrapper {
+    text-decoration: none;
+    color: inherit;
+}
+
+.itemPage_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    gap: 200px;
+    padding: 20px 20px;
+    font-weight: bold;
+    border-bottom: 1px solid #c7c7c7;
+}
+
+.itemPage_brand_name {
+    display: inline-block;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 5px 30px;
+}
+
+.itemPage-brand-part1 {
+    color: rgb(255, 179, 39);
+    padding-right: 10px;
+}
+
+.itemPage_navigation {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.itemPage_navigation li {
+    margin: 0px 80px;
+    font-size: 30px;
+}
+
+.itemPage_navigation li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.itemPage_search_area {
+    display: flex;
+    align-items: center;
+}
+
+.itemPage_search_area a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.itemPage_search_area input {
+    width: 120px;
+    height: 30px;
+    border: 2px solid #333;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.search {
+    width: 120px;
+    height: 30px;
+    border: 2px solid #333;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+}
+
+
+.dropdown {
+    position: absolute;
+    top: calc(100% + -1px);
+    /* 입력 창의 아래에 위치하도록 조정합니다. */
+    right: 1;
+    z-index: 1000;
+    /* 다른 요소들보다 위에 나타나도록 설정합니다. */
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 2px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    font-size: 15px;
+}
+
+.dropdown ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown li {
+    padding: 4px 10px;
+}
+
+.dropdown li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+
+
+.itemPage_search,
+.itemPage_cart_logo {
+    margin-right: 20px;
+}
+
+.itemPage_night {
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+}
+
+.itemPage_cart_logo {
+    font-size: 26px;
+    padding-top: 5px;
+}
+
+
+/* 디테일 부분 */
+
+.itemPage_detail {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.itemPage_product_details {
+    display: flex;
+}
+
+
+
+
+.itemPage_product_image img {
+    display: inline;
+    border: 2px solid #000000;
+}
+
+.itemPage_product_info {
+    display: inline-block;
+    padding-left: 200px;
+    width: 700px;
+}
+
+.itemPage_product_info p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+h2 {
+    margin-top: 0px;
+}
+
+
+.itemPage_nav2 {
+    display: inline-block;
+    padding-left: 315px;
+    margin-top: 20px;
+}
+
+.itemPage_position {
+    display: inline-flex;
+    list-style: none;
+    font-size: 25px;
+    padding: 0px 20px;
+    margin: 10px 10px;
+    border: 1px solid #333;
+    border-radius: 30px;
+}
+
+.itemPage_position a {
+    text-decoration: none;
+    color: black;
+}
+
+.itemPage_position li {
+    padding-right: 5px;
+    font-weight: bold;
+}
+
+.itemPage_option,
+.itemPage_quantity {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+.itemPage_quantity {
+    padding-top: 10px;
+}
+
+#options,
+#colors {
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+}
+
+
+
+label {
+    font-size: 25px;
+}
+
+.shoppingBag {
+    margin-top: 30px;
+    width: 500px;
+    height: 50px;
+    font-size: 30px;
+    background-color: #333;
+    border: none;
+    color: white;
+}
+
+.shoppingBag:hover {
+    background-color: rgb(255, 179, 39);
+    color: #000000;
+    cursor: pointer;
+}
+
+.selected {
+    display: flex;
+    align-items: center;
+    margin: 15px 0px;
+}
+
+.description {
+    padding-right: 10px;
+}
+
+.description :nth-child(1) {
+    font-size: 15px;
+    overflow: hidden;
+    width: 280px;
+    margin: 5px 0px;
+}
+
+.description :nth-child(2) {
+    font-size: 15px;
+    overflow: hidden;
+    width: 280px;
+    color: #878787;
+    margin: 0px;
+}
+
+.selected :nth-child(3) {
+    font-size: 16px;
+    padding-left: 30px;
+}
+
+
+
+#quantity {
+    display: inline;
+    width: 40px;
+    height: 20px;
+    font-size: 15px;
+}
+
+.selected_box {
+    display: block;
+    margin-top: 130px;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+
+
+
+.horizontalLine {
+    margin-top: 20px;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
