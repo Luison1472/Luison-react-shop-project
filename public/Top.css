@@ -73,14 +73,3 @@
     font-weight: bold;
     flex-shrink: 0;
 }
-
-.top_info>* {
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-.top_price {
-    display: inline;
-    font-weight: bold;
-    padding-right: 5px;
-}
