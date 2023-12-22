@@ -3,16 +3,16 @@ import { FaShoppingBag } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import '/public/Top.css';
 import Layout from './Layout';
+
+
 function Top() {
 
 
-  
- 
 
   return (
     <>
       <Layout>
-      <div className="header">
+      <div className="top_header">
           <div className="search-area">
             <input type="text" placeholder="검색" className="search" />
           <Link to="/ShoppingBag"><FaShoppingBag className="cart-logo" /></Link>

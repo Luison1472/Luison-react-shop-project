@@ -2,14 +2,14 @@ import React from 'react';
 import Layout from './Layout';
 import { FaShoppingBag } from "react-icons/fa";
 import { Link } from 'react-router-dom';
-
+import '/public/Shoes.css';
 function Shoes() {
 
  
 
   return (
     <Layout>
-    <div className="header">
+    <div className="shoes_header">
         <div className="search-area">
          
           <input type="text" placeholder="검색" className="search" />

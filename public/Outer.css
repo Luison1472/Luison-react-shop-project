@@ -1,0 +1,12 @@
+.outer_header {
+    position: flex;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    height: 250px;
+    transition: background-color 0.3s ease;
+    border-bottom: 1px solid #d9d9d9;
+    z-index: 999;
+
+}
